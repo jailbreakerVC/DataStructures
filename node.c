@@ -50,7 +50,7 @@ int main() {
 				break;
 			case 4:
 				exit(0);
-				free();
+				//free();
 				break;
 			default:
 			printf("Invalid Input\n");
