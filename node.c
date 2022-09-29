@@ -28,7 +28,7 @@ int main() {
 					// free(top->data);
 					del=top;
 					top=top->next;
-					free(del);
+					free(del); // specify the node name you want to delete inside the free function 
 				}
 				break;
 			case 2:
